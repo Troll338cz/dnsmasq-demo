@@ -1,6 +1,7 @@
 # Dnsmasq DHCP Server panel demo
-Simple PHP powered panel for configuring basic DHCP functions 
+Simple PHP powered panel for configuring basic DHCP functions.
 This is a Proof-of-Concept, not well made, not secure.
+Currently tested only on Debian 11.
 
 ## Dependencies
 **Debian 11**
