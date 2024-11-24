@@ -1,0 +1,36 @@
+:root {
+    --select-color: #a5dc86;
+    --select-color-active: rgb(13, 110, 253);
+    --data-color: #4AF626;
+}
+#term_frame {
+    /* border: 2px solid black; */
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+    /* box-shadow: 5px 5px 5px grey; */
+    /* min-height: 75%; */
+    margin-top: 10px;
+}
+
+#term_yellow {
+    background-color: black;
+    color: #d7f626;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: scroll;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+#term_green {
+    background-color: black;
+    color: var(--data-color);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    min-height: 50em;
+    overflow: scroll;
+    padding: 10px;
+}
+button {
+    height: 28px;
+    width: 128px;
+}
